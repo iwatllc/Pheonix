@@ -47,21 +47,11 @@
 
 $active_group = 'default';
 $active_record = TRUE;
-if($_SERVER['HTTP_HOST'] == "localhost")
-{
-    $db['default']['hostname'] = 'localhost';
-	$db['default']['username'] = 'root';
-	$db['default']['password'] = 'vinove';
-	$db['default']['database'] = 'iwat_bb';
-}
-else
-{
-   	$db['default']['hostname'] = 'localhost';
-	$db['default']['username'] = 'devmarkc_dmy';
-	$db['default']['password'] = 'reportwriter';
-	$db['default']['database'] = 'devmarkc_dmy';
-}
 
+$db['default']['hostname'] = 'localhost';
+$db['default']['username'] = 'pheonix';
+$db['default']['password'] = 'hello';
+$db['default']['database'] = 'pheonix';
 
 $db['default']['dbdriver'] = 'mysql';
 $db['default']['dbprefix'] = '';
